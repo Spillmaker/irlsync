@@ -62,7 +62,7 @@ For this project ive decided to work out from using RTC for the timestamp. So fo
 
 ```timecodestamper source="rtc"```
 
-This would add (how?) a timecode into each frame (what protocol?) with the local machines time. ```HH:MM:SS:MSMS``` for example ```23:59:59:99```
+This would add (how?) a timecode into each frame (what protocol?) with the local machines time. ```HH:MM:SS:MSMS``` for example ```23:59:59:99``` (Or is it [SMPTE-code](https://en.wikipedia.org/wiki/SMPTE_timecode)?)
 
 So by adding this element in the pipeline of the broadcasting end, the goal is then to be able to read it and hold the stream until the recieved timecode is approached, then output the video-feed to HDMI. This would mean that as long as all the machines in the IRL-setup are using the same NTP-server, the outputted HDMI-feeds should all be within 1ms of eachother!
 
