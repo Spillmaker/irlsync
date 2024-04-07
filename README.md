@@ -79,11 +79,14 @@ Do you have any knowledge around this? I would love to hear from you, Make a tic
 Applications can be both recieving and sending video-feeds.
 
 #### OBS
+
 **Stamping**
+
 There is a open [PR](https://github.com/obsproject/obs-studio/pull/4103) to implement MISP timestamps into the OBS encoder who transmits the video-feed out of OBS.
 There seems to be some conversation about if this is the format they wanna commit to, in addition with some issues with version incompatibility with what time-standard was used.
 
-***Syncing***
+**Syncing**
+
 THere are several questions on the OBS forum about time-syncing, but i cannot find any PR or open tickets regarding this. So im assuming this is not something the developers are working on, less being aware of is a feature-request.
 
 [^1]: https://tenor.com/view/armstrong-made-it-up-gif-25653819
